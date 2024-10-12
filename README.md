@@ -24,10 +24,27 @@ This project is a C++ application that retrieves and displays detailed system in
    ```bash
    git clone https://github.com/ScribeAegis/HWID-scope.git
    cd HWID-scope
+   
+### Build the project using Visual Studio or your preferred C++ compiler.
+Usage:
+Run the executable to display system information:
+./hwidscope.exe
 
-Build the project.
+### How to Use:
+After building the project, navigate to the output directory containing hwidscope.exe.
+Double-click the executable or run it from the command line.
+The application will display detailed information about your system.
 
-2. Usage:
-- Run the executable to display system information:
-   ```bash
-  ./hwidscope.exe
+### Code Overview
+The main components of the code include:
+
+WMI Queries: Utilizes WMI to fetch data about the system components.
+Windows API: Used to access system information and hardware details.
+Output Formatting: Information is formatted and displayed in a user-friendly manner.
+
+### Dependencies
+wbemuuid.lib: Required for WMI support.
+Windows SDK: Ensure you have the Windows SDK installed for access to Windows API functions.
+
+### Credits
+This project is inspired by and has improved upon the original HWID Info Grabber by HeathHowren and previously improved by 0vm.
