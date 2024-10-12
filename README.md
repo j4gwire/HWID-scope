@@ -28,6 +28,7 @@ Open the project in Visual Studio or your preferred C++ IDE.
 
 Build the project.
 
-Usage:
-Run the executable to display system information:
-./hwidscope.exe
+2. Usage:
+- Run the executable to display system information:
+   ```bash
+  ./hwidscope.exe
