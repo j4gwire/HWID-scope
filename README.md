@@ -24,3 +24,10 @@ This project is a C++ application that retrieves and displays detailed system in
    ```bash
    git clone https://github.com/ScribeAegis/HWID-scope.git
    cd HWID-scope
+Open the project in Visual Studio or your preferred C++ IDE.
+
+Build the project.
+
+Usage
+Run the executable to display system information:
+./hwidscope.exe
