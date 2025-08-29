@@ -22,7 +22,7 @@ This project is a C++ application that retrieves and displays detailed system in
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ScribeAegis/HWID-scope.git
+   git clone https://github.com/j4gwire/HWID-scope.git
    cd HWID-scope
    
 ### Build the project using Visual Studio or your preferred C++ compiler.
